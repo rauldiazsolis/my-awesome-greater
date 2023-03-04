@@ -1,6 +1,6 @@
 {
   "name": "@argencoders/my-awesome-greeter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "My Awesome Greeter",
   "main": "lib/index.js",
   "types": "lib.index.d.ts",
