@@ -1,7 +1,7 @@
 {
-  "name": "@argencoders/my-awesome-greater-peky",
+  "name": "@argencoders/my-awesome-greeter",
   "version": "1.0.2",
-  "description": "My Awesome Greater - Peky",
+  "description": "My Awesome Greeter",
   "main": "lib/index.js",
   "types": "lib.index.d.ts",
   "files": [
