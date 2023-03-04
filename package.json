@@ -2,7 +2,8 @@
   "name": "my-awesome-greater-peky",
   "version": "1.0.0",
   "description": "My Awesome Greater - Peky",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib.index.d.ts",
   "files": [
     "lib/**/*"
   ],
@@ -10,14 +11,22 @@
     "build": "tsc",
     "test": "jest --config jestconfig.json",
     "format": "prettier --write \"src/**/*.ts\"",
-    "lint": "tslint -p tsconfig.json"
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rauldiazsolis/my-awesome-greater.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Hello",
+    "Greater"
+  ],
+  "author": "Peky",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rauldiazsolis/my-awesome-greater/issues"
