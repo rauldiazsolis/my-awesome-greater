@@ -1,6 +1,6 @@
 {
-  "name": "my-awesome-greater-peky",
-  "version": "1.0.1",
+  "name": "@argencoders/my-awesome-greater-peky",
+  "version": "1.0.2",
   "description": "My Awesome Greater - Peky",
   "main": "lib/index.js",
   "types": "lib.index.d.ts",
